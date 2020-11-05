@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>The Square Sauce</title>
+
+        <!--CSS Files and CDN-->
+
+        <!--Bootstrap CSS Files and CDN-->
+        <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheet">
+
+        <!--Font-Awesome CSS Files and CDN-->
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css" rel="stylesheet">
+
+        <link href="css/style.css" type="text/css"rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+
+        <!--[if lt IE 9]>
+        <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--Header Section Start-->
+        <header class="header-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="header-left">
+                            <i class="fas fa-phone fa-rotate-90"></i>
+                            <span>+880 1749444918</span>
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@urmail.com</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <div class="header-right">
+                            <i class="fab fa-facebook-f pull-right"></i>
+                            <i class="fab fa-twitter pull-right"></i>
+                            <i class="fab fa-instagram pull-right"></i>
+                            <i class="fab fa-linkedin-in pull-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--Header Section End-->
+
+
+        <!--Banner Section Start-->
+        <section class="banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mainmenu">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#home">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                  </li>
+
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#menu">Menu</a>
+                                  </li>
+                                   <li class="nav-item">
+                                    <a class="nav-link" href="#events">Events</a>
+                                  </li>
+                                   <li class="nav-item">
+                                    <a class="nav-link" href="#reservation">Reservation</a>
+                                  </li>
+                                   <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="banner-text">
+                        <h3>Welcome to</h3>
+                        <h1>The Square Sauce</h1>
+                        <span class="bar"></span>
+                        <p>Restaurant</p>
+                        <a href="#" class="btn btn-custom"><span>our menu</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Banner Section End-->
+
+
+        <!-- About Section Start-->
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="our-story text-center" id="section-title">
+                            <h3 class="font-3">Discover</h3>
+                            <h1 class="font-1">Our Story</h1>
+                            <span class="heading-bottom"></span>
+                            <p class="font-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua.</p>
+                            <a href="#" class="btn about-btn">About Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="our-story-img">
+                            <img class="img-fluid" src="images/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About Section End-->
+
+
+        <!--Menu Section Start-->
+        <section class="menu-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="menu-heading text-center" id="section-title">
+                  <h3>Tasty Meals</h3>
+                  <h1>Our Menu</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+              </div>
+
+            <!--tab pane-->
+            <div class="col-sm-12">
+              <div class="tab-menu">
+                <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner" aria-selected="false">Dinner</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Drinks</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="row">  <img src="images/menu-img.jpg" alt="" class="img-fluid"></div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="row">
+                          <div class="col-sm">
+                            <div class="row menu-list-section">
+                              <div class="col-sm">
+                            <div class="menu-list">
+              						 		<h2>Breakfast</h2>
+              						 		<ul class="list-inline">
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 			<li>
+              						 				<p>Chicken Soup.................................................................................................$15.25</p>
+              						 				<span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+              						 			</li>
+              						 		</ul>
+                              </div>
+              						 	</div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab"><div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="row">  <img src="images/menu-img.jpg" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="row">
+                        <div class="col-sm">
+                          <div class="row menu-list-section">
+                            <div class="col-sm">
+                          <div class="menu-list">
+                            <h2>Lunch</h2>
+                            <ul class="list-inline">
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab"><div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="row">  <img src="images/menu-img.jpg" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="row">
+                        <div class="col-sm">
+                          <div class="row menu-list-section">
+                            <div class="col-sm">
+                          <div class="menu-list">
+                            <h2>Dinner</h2>
+                            <ul class="list-inline">
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab"><div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="row">  <img src="images/menu-img.jpg" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="row">
+                        <div class="col-sm">
+                          <div class="row menu-list-section">
+                            <div class="col-sm">
+                          <div class="menu-list">
+                            <h2>Drinks</h2>
+                            <ul class="list-inline">
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                              <li>
+                                <p>Chicken Soup.................................................................................................$15.25</p>
+                                <span>Chicken, Onion, Pepper, Chilli, Tomato</span>
+                              </li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!--Menu Section End-->
+
+        <!-- Recommended Section Start-->
+        <section class="recommended-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="chef-heading text-center" id="section-title">
+                  <h3>Must Try</h3>
+                  <h1>Chef Recommended</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Recommended Section End-->
+
+        <!--Gallery Section End-->
+        <section class="gallery-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_01.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_02.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_03.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_04.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_05.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_01.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_02.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+      			<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      				<div class="row">
+      					<div class="food-gallery">
+      						<img src="images/special_03.jpg" alt="special" class="img-fluid">
+      						<p>Chicken Soup........................................................................$15.25
+      						<span>Chicken, Onion, Pepper, Chilli, Tomato</span></p>
+
+      					</div>
+      				</div>
+      			</div>
+          </div>
+        </div>
+        </section>
+        <!--Gallery Section End-->
+
+        <!--Feature Section Start-->
+        <section class="feature-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="feature-content text-center">
+                  <img src="images/chef.png" alt="">
+                  <h3>Top Chef</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="feature-content text-center">
+                  <img src="images/fresh.png" alt="">
+                  <h3>Fresh Ingredients</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="feature-content text-center">
+                  <img src="images/pizza.png" alt="">
+                  <h3>Attractive Flavours</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="feature-content text-center">
+                  <img src="images/cake.png" alt="">
+                  <h3>Professionals</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Feature Section End-->
+
+        <!--Booking Section Start-->
+        <section class="booking-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="book-heading text-center" id="section-title">
+                  <h3>Reservation</h3>
+                  <h1>Book A Table</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+                <div class="row">
+            			<div class="col-sm">
+            				<form class="text-center">
+            					<div class="form-row reservation">
+
+            						<div class="col-sm-3">
+                        <label class="mr-sm-2" for="FormCustomSelect">Date</label>
+                          <div class="input-group input-area">
+              							<input type="text" class="form-control form-custom" placeholder="DD/MM/YYYY" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              							<div class="input-group-append">
+                							<span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+              							</div>
+                          </div>
+          						</div>
+            						<div class="col-sm-3">
+                        <label class="mr-sm-2" for="FormCustomSelect">Time</label>
+                          <div class="input-group">
+            							<input type="text" class="form-control form-custom" placeholder="08:00 Pm" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            							<div class="input-group-append">
+              							<span class="input-group-text" id="basic-addon2"><i class="far fa-clock"></i></span>
+            							</div>
+            							</div>
+
+          						</div>
+            						<div class="col-sm-3">
+                          <label class="mr-sm-2" for="FormCustomSelect">Seats</label>
+                          <div class="input-group">
+            							  <input type="number" class="form-control seats" placeholder="0" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            							</div>
+          						</div>
+            						<div class="col-sm-3">
+                          <div class="input-group">
+            							  <a href="#" class="btn book-btn"><span>our menu</span></a>
+                          </div>
+          						  </div>
+            					</div>
+            				</form>
+            			</div>
+            		</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Booking Section End-->
+
+        <!--Event Section Start-->
+        <section class="event-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="book-heading text-center" id="section-title">
+                  <h3>Our Events</h3>
+                  <h1>Upcoming Events</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <img src="images/event-01.jpg" alt="" class="img-fluid">
+                <div class="event-detail">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="event-left">
+                        <h1>23</h1>
+                        <h4>October</h4>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="event-right">
+                        <h3>Night Party In Bar</h3>
+                        <div class="event-footer">
+                          <ul>
+                            <li class="float-left"><i class="fas fa-map-marker"></i><span>New York, USA</span></li>
+                            <li><i class="fas fa-clock"></i><span>12.00 am</span></li>
+                            <li><i class="fas fa-ticket-alt fa-rotate-135"></i><span>Ticket: $20</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md">
+                  <img src="images/event-02.jpg" alt="" class="img-fluid">
+                  <div class="event-detail">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="event-left">
+                          <h1>23</h1>
+                          <h4>October</h4>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="event-right">
+                          <h3>Night Party In Bar</h3>
+                          <div class="event-footer">
+                            <ul>
+                              <li class="float-left"><i class="fas fa-map-marker"></i><span>New York, USA</span></li>
+                              <li><i class="fas fa-clock"></i><span>12.00 am</span></li>
+                              <li><i class="fas fa-ticket-alt fa-rotate-135"></i><span>Ticket: $20</span></li>
+                            </ul>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Event Section End-->
+        <!-- Map Section Start -->
+        <section class="map-section embed-responsive embed-responsive">
+          
+            <iframe class="embed-responsive-item" src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border:0" allowfullscreen></iframe>
+
+    <div class="container">
+            
+      <div class="row contact-row">
+        <div class="col-md-5">
+          <div class="contact-section">
+            <div class="contact-heading" id="section-title">
+              <h3>Find Us</h3>
+              <h1>Contact Us</h1>
+              <span class="heading-bottom"></span>
+            </div>
+            <ul class="list-inline address-details ">
+              <li class="">
+                <span class="box"><i class="fas fa-map-marker"></i> </span>
+                <p class="align-middle"><strong>Location</strong> <span>New york, USA</span></p>
+              </li>
+              <li class="">
+                <span class="box"><i class="far fa-envelope"></i> </span>
+                <p class="align-middle"><strong>Email</strong> <span>usa@gmail.com</span></p>
+              </li>
+              <li class="">
+                <span class="box"><i class="fas fa-phone"></i> </span>
+                <p class="align-middle"><strong>Phone</strong> <span>0178545548</span></p>
+              </li>
+            </ul>
+            <!-- <div class="contact-detail">
+              <div class="contact-left"><i class="fas fa-map-marker"></i></div>
+              <div class="contact-right">
+                <h4>Location</h4>
+                <p>New York, USA</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-left"><i class="fas fa-envelope"></i></div>
+              <div class="contact-right">
+                <h4>Location</h4>
+                <p>New York, USA</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-left"><i class="fas fa-phone fa-rotate-90"></i></div>
+              <div class="contact-right">
+                <h4>Location</h4>
+                <p>New York, USA</p>
+              </div>
+            </div> -->
+          </div>
+          
+        </div>
+      </div>
+    </div>
+        </section>
+        <!-- Map Section End -->
+        
+
+        <!--footer-top Section Start-->
+        <section class="footer-top-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img class="footer-logo" src="images/logo.png" alt="">
+                <ul class="footer-contact">
+                  <li><i class="fas fa-map-marker"></i><span>New York, USA</span></li>
+                  <li><i class="fas fa-envelope"></i><span>alvabd2@gmail.com</span></li>
+                  <li><i class="fas fa-phone fa-rotate-90"></i><span>+8801922293363</span></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-heading">
+                  <h1>Opening Time</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+                <div class="footer-details">
+                  <p>Monday-Friday</p>
+                  <strong>8.00-17.00</strong>
+                </div>
+                <hr class="footer-hr">
+                <div class="footer-details">
+                  <p>Saturday-Sunday</p>
+                  <strong>8.00-17.00</strong>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-heading">
+                  <h1>Newsletter</h1>
+                  <span class="heading-bottom"></span>
+                </div>
+                <div class="footer-details">
+                  <input type="email" placeholder="Your Email"  class="form-control">
+         					<input type="submit" value="Subscribe"  class="form-control btn">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--footer-top Section End-->
+
+        <!--footer Section Start-->
+        <footer class="footer-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 footer-cus">
+                <p>© Copyright 2018. All rights reserved by The Square Sauce</p>
+              </div>
+              <div class="col-md-6 footer-cus">
+                <div class="footer-menu">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#reservation">Reservation</a>
+                          </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!--footer Section End-->
+
+        <!--Jquery Files and CDN-->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        <!--Bootstrap JS-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
